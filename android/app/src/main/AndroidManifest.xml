@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flavour_poc">
+    package="com.abiudrn.flavorpoc">
    <application
         android:label="flavour_poc"
         android:name="${applicationName}"
