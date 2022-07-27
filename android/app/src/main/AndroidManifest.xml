@@ -2,7 +2,7 @@
     package="com.abiudrn.flavorpoc">
    <application
         android:label="flavour_poc"
-        android:name="${applicationName}"
+        android:name="@string/app_name"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

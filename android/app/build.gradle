@@ -53,6 +53,23 @@ android {
         versionName flutterVersionName
     }
 
+    flavorDimensions "env"
+    productFlavors {
+ 
+        app1 {
+            dimension "demo"
+            applicationId "com.abiudrn.flavorpoc"
+            versionCode 1
+            versionName "1.0"
+        }
+ 
+        app2 {
+            dimension "prod"
+            applicationId "com.abiudrn.flavorpoc"
+            versionCode 1
+            versionName "1.0"
+        }
+
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
